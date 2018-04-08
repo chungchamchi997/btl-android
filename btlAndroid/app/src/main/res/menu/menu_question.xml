@@ -6,8 +6,8 @@
         android:title="Tất cả"
         android:icon="@drawable/icon_1"/>
     <item
-        android:id="@+id/pldc"
-        android:title="Bắt Đầu Test"
+        android:id="@+id/qdgcd"
+        android:title="pháp luật đại cương"
         android:icon="@drawable/icon_4"/>
 
 </menu>

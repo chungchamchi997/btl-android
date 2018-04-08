@@ -13,7 +13,7 @@
         android:gravity="center"
         android:textStyle="bold"
         android:textSize="23sp"
-        android:textColor="#cce21212"
+        android:textColor="#e41818"
         android:background="#4ea9f9"
         android:text="Danh sách điểm" />
 

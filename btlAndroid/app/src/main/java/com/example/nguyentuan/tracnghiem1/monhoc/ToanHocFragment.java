@@ -36,7 +36,7 @@ public class ToanHocFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        ((MainActivity) getActivity()).getSupportActionBar().setTitle("Bắt đầu test");
+        ((MainActivity) getActivity()).getSupportActionBar().setTitle("Môn GDCD");
         return inflater.inflate(R.layout.fragment_toan_hoc, container, false);
     }
 
@@ -59,7 +59,7 @@ public class ToanHocFragment extends Fragment {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Intent intent= new Intent(getActivity(), ScreenSlideActivity.class);
                 intent.putExtra("num_exam",i+1);
-                intent.putExtra("subject","pldc");
+                intent.putExtra("subject","gdcd");
                 intent.putExtra("test","yes");
                 startActivity(intent);
             }

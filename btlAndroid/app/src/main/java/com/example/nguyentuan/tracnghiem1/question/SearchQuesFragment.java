@@ -102,7 +102,7 @@ public class SearchQuesFragment extends Fragment {
                         subject="";
                         listCursor(questionController.getQuestionBySubject(subject));
                         break;
-                    case R.id.pldc:
+                    case R.id.qdgcd:
                         subject="gdcd";
                         listCursor(questionController.getQuestionBySubject(subject));
                         break;
